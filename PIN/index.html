@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page | NULL</title>
+    <!-- import from lokal -->
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/left-contain.css">
+    <link rel="stylesheet" href="asset/css/right-contain.css">
+    <link rel="stylesheet" href="asset/css/tabel.css">
+    <!-- import from bootstrap -->
+    <link rel="stylesheet" href="asset/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <script src="asset/jquery.slim.min.js"></script>
+    <script src="asset/popper.min.js"></script>
+    <script src="asset/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid" id="up">
+        <div class="row" style="height: 100%;">
+                      <!-- Left Layout -->
+          <div class="left-contain pt-1" id="collapseWidthExample">
+            <div class="" style="text-align: center; border-bottom: 3px solid #fff;">
+              <label class="h4">LOGO</label>
+            </div>            
+            <div class="" style="text-align: right; border-bottom: 3px solid #fff;">
+              <label>Admin</label>
+            </div>
+            <div class="d-flex justify-content-start">
+              <div class="badge badge-light mt-1 mb-1" style="font-size: small;">Sales By:</div>
+            </div>
+            <!-- Nav -->
+            <nav class="nav flex-column" style="border-bottom: 3px solid #fff;">
+              <a class="nav-link active" href="#">Menu 1</a>
+              <a class="nav-link " href="#">Menu 2</a>
+              <a class="nav-link" href="#">Menu 3</a>
+            </nav>            
+          </div>
+          <!-- Main Layout -->
+          <div class="pl-1 pr-1 right-contain" id="main">
+            <!-- Top Nav -->
+            <div class="card sticky-top">
+              <div class="card-header">
+                <button class="btn-info mr-1" type="button" onclick="openNav()">&#9776;</button>
+                <label class="title">Sales Performance 2022</label>
+              </div>
+            </div>
+            <!-- Input Row -->
+            <div class="card mt-2 p-2">
+              <div class="row">
+                <div class="col-lg-2 mb-2">                    
+                  <h6><b>Desain:</b></h6>
+                  <div class="input-group input-group-sm">                   
+                    <input type="text" list="sDesign" id="design" name="design" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="type here">
+                    <datalist id="sDesign">
+                      <option value="Data 1">Data 1</option>
+                      <option value="Data 2">Data 2</option>
+                      <option value="Data 3">Data 3</option>
+                    </datalist>
+                  </div>
+                </div>
+
+                <div class="col-lg-2">                    
+                  <h6><b>Tanggal:</b></h6>                 
+                  <label for="dateFrom">Dari Tanggal: </label>
+                  <div class="input-group input-group-sm">                   
+                    <input type="date" list="sDesign" id="design" name="design" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="type here">
+                  </div>
+                  <label for="dateFrom">Sampai Tanggal</label>
+                  <div class="input-group input-group-sm">                   
+                    <input type="date" list="sDesign" id="design" name="design" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="type here">
+                  </div>
+                  <div style="text-align: right; margin-top: 15px;">
+                    <input class="btn btn-primary" type="submit" value="GO" name="submit">
+                </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- Tabel Row -->
+            <div class="card mt-2 p-3 text-justify">
+              <div class="d-flex justify-content-start">
+                <div class="badge badge-dark mb-2" style="font-size: larger;">Tabel :</div>
+              </div>
+              <!-- Tabel -->
+              <div class="tabel">
+                <div class="containTabel">
+                  <div class="tbl">
+                    <table id="Tabel" class="">
+                      <tr class='tHead'>
+                        <th><button>Kelompok</button></th>
+                        <th><button>Nama Pembeli</button></th>
+                        <th><button>Tanggal</button></th>
+                        <th><button>Desain</button></th>
+                        <th><button>Qty</button></th>
+                        <th><button>Satuan</button></th>
+                        <th><button>Berat (kg)</button></th>
+                        <th><button>Total</button></th>
+                      </tr>
+                      <tr class="tBody">
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                      </tr>
+                      <tr class="tBody">
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                      </tr>
+                      <tr class="tBody">
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                      </tr>
+                      <tr class="tBody">
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- Button Import -->
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-success mt-1">Import &#x2913;</button>
+              </div>
+            </div>
+            <!-- Footer -->
+            <div class="d-flex justify-content-center bg-light mb-4 mt-2">
+              <div class="p-2 bd-highlight">footer</div>
+            </div>
+            <!-- Button UP -->
+            <button class="fixed-bottom" onclick="upButton()" style="margin-bottom: 1px; width: 5%; margin-left: 85%; margin-bottom: 1px; text-align: center; background-color: transparent; border-color: transparent; color:#000; font-size: 20px;">
+              <label>&#9650<span>up</span></label>
+            </button>
+
+            </div>
+          </div>
+        </div>
+      </div>     
+</body>
+<script>
+  // Show Hide Left layout
+    function openNav() {
+        var x = document.getElementById("collapseWidthExample")
+        var y = document.getElementById("main");
+    if (y.style.width == "99.5%") {                    
+        x.style.width = "20%";
+        y.style.width = "80%";
+         }else{
+            x.style.width = "0.5%";
+             y.style.width = "99.5%";
+         }       
+    }
+
+// Up Button
+var mybutton = document.getElementById("up");
+function upButton() {
+  mybutton.scroll({top:0, left:0, behavior:'smooth'});
+}
+</script>
+</html>

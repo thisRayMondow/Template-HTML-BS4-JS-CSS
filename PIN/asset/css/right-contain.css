@@ -1,0 +1,6 @@
+.right-contain{
+   background-color: gainsboro; 
+   width: 80%; 
+   transition: all 1s;
+   padding-top: 3px;
+}

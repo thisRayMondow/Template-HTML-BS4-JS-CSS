@@ -1,0 +1,33 @@
+.left-contain{
+    transition: all 1s; 
+    width: 20%;
+    padding-left: 0.5%;
+    background-color: #0f334d;
+    color : #fff;
+}
+.left-contain .h4{
+    font-size: x-large;
+    margin-right: 5px;
+}
+.left-contain a{
+    text-decoration: none;
+    color: #fff;
+}
+.left-contain .active {
+    background-color: gainsboro;
+    color: #000;
+    width: 100%;
+  }
+  .left-contain a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 20%; 
+    }
+
+
+    /* @media screen and (max-width: 500px) {
+        .h4{
+            background-color: aquamarine;
+            font-size: 50px;
+        }
+    } */
